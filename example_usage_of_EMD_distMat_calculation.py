@@ -11,7 +11,7 @@ dict_allFrac_ss = {
 distance_matrix_dict = {
     'cosine': pd.read_csv('Cosine_distance_between_SBS_signatures.csv', index_col=0),
     'hybrid': pd.read_csv('Hybrid_distance_between_SBS_signatures.csv', index_col=0),
-    'functional': pd.read_csv('Functional_distance_between_SBS_signatures.csv', index_col=0)
+    'etiological': pd.read_csv('Functional_distance_between_SBS_signatures.csv', index_col=0)
 }
 
 # Define the cancer types

@@ -28,7 +28,7 @@ from sklearn.metrics import homogeneity_score, completeness_score
 os.chdir('/.../exper01/')
 os.getcwd()
 
-clusteringPath = '/.../exper01/clustering_results/'
+clusteringPath = '/path/to/EMD_analysis/'
 
 ### Define the function for Hierarchical_complete Clustering
 def hierarchical_clustering(distMat, n_clusters, linkage_method='complete'):
